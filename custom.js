@@ -3,8 +3,6 @@ function allowDrop(ev) {
 }
 
 function drag(ev) {
-  console.log(ev);
-
   ev.dataTransfer.setData("text", ev.target.id);
 }
 
